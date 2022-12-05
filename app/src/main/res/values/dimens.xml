@@ -1,0 +1,26 @@
+<resources>
+    <!-- General Values -->
+    <dimen name="element_spacing_extra_small">4dp</dimen>
+    <dimen name="element_spacing_small">8dp</dimen>
+    <dimen name="element_spacing_medium_small">10dp</dimen>
+    <dimen name="element_spacing_normal">12dp</dimen>
+    <dimen name="element_spacing_medium_large">16dp</dimen>
+    <dimen name="element_spacing_large">24dp</dimen>
+    <dimen name="element_spacing_larger">36dp</dimen>
+    <dimen name="element_spacing_extra_large">48dp</dimen>
+    <dimen name="element_spacing_super_large">56dp</dimen>
+
+    <!-- Text Values -->
+    <dimen name="header_text_size_normal">18sp</dimen>
+    <dimen name="body_text_size_title">16sp</dimen>
+    <dimen name="text_size_yuge">56sp</dimen>
+
+    <!-- Image View -->
+    <dimen name="image_height">250dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- CardView -->
+    <dimen name="card_default_height">150dp</dimen>
+    <dimen name="card_default_corner_radius">8dp</dimen>
+
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Rick and Morty</string>
+    <string name="loading_row_title">Loading…</string>
+
+    <!-- Characters Screen -->
+    <string name="character_tab">Characters</string>
+    <string name="character_name_title">Character name:</string>
+    <string name="character_status_title">Character status:</string>
+
+    <!-- Locations Screen -->
+    <string name="location_tab">Locations</string>
+    <string name="locations_name_title">Location name:</string>
+    <string name="location_type_title">Location type:</string>
+
+</resources>

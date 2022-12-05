@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="TextBody">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/darkGrey</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

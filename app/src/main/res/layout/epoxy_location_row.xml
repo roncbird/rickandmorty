@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="locationName"
+            type="String" />
+
+        <variable
+            name="locationType"
+            type="String" />
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_default_height"
+        android:layout_margin="@dimen/element_spacing_normal"
+        android:background="@color/colorAccent"
+        app:cardCornerRadius="@dimen/card_default_corner_radius">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:id="@+id/locationNameTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/element_spacing_normal"
+                android:paddingTop="@dimen/element_spacing_small"
+                android:paddingRight="@dimen/element_spacing_normal"
+                android:text="@string/locations_name_title"
+                android:textColor="@color/icons"
+                android:textSize="@dimen/header_text_size_normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingLeft="@dimen/element_spacing_normal"
+                android:paddingTop="@dimen/element_spacing_extra_small"
+                android:paddingRight="@dimen/element_spacing_normal"
+                android:text="@{locationName}"
+                android:textColor="@color/icons"
+                android:textSize="@dimen/body_text_size_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/locationNameTitle"
+                tools:text="Abadango Cluster Princess" />
+
+            <TextView
+                android:id="@+id/locationTypeTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/element_spacing_normal"
+                android:paddingTop="@dimen/element_spacing_medium_large"
+                android:paddingRight="@dimen/element_spacing_normal"
+                android:text="@string/location_type_title"
+                android:textColor="@color/icons"
+                android:textSize="@dimen/header_text_size_normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name" />
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingLeft="@dimen/element_spacing_normal"
+                android:paddingTop="@dimen/element_spacing_extra_small"
+                android:paddingRight="@dimen/element_spacing_normal"
+                android:text="@{locationType}"
+                android:textColor="@color/icons"
+                android:textSize="@dimen/body_text_size_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/locationTypeTitle"
+                tools:text="Alive" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</layout>
